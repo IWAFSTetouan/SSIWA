@@ -75,6 +75,11 @@
 		<scope>runtime</scope>
 		<!-- Cette dépendance permet l'utilisation de Jackson pour la sérialisation et la désérialisation des JWT. -->
 		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>

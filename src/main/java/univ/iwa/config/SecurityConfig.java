@@ -10,6 +10,8 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
+import univ.iwa.filter.JwtRequestFilter;
+
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
